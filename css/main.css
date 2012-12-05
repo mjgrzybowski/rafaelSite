@@ -95,7 +95,7 @@ textarea {
 
 
 div#main-ctnr {
-
+background-image: url('../img/tlo.jpg');
 border:1px solid red;
 height:700px;
 width:1005px;
