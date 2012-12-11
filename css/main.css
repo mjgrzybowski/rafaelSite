@@ -95,16 +95,26 @@ textarea {
 
 
 div#main-ctnr {
-background-image: url('../img/tlo.jpg');
-    background-position: 10px 10px;
+
+
 border:1px solid red;
 height:700px;
-width:1005px;
+width:1015px;
 position:relative;
 margin-left:auto;
 margin-right: auto;
-
 }
+div#Tlo {
+    background-image: url('../img/tlo.jpg');
+    background-position: 8px 10px;
+    width:1210px;
+    height:1011px;
+    position:absolute;
+    top:-80px;
+    left:-102px;
+}
+
+
 div#top-menu {
     background-image: url('../img/pasek_gorny.png');
 
@@ -171,19 +181,43 @@ div#booking {
     width:453px;
     height:146px;
     position:absolute;
-    right:0px;
+    right:-12px;
     top:80px;
 
 }
 div#sound-cloud {
     background-image: url('../img/Soundcloud.png');
 
-    width:779px;
+    width:654px;
     height:232px;
     position:absolute;
-    right:0px;
-    top:300px;
-
+    right:-35px;
+    top:422px;
+}
+div#Minus {
+    position:absolute;
+    left:67px;
+    top:52px;
+}
+div#Finding {
+    position:absolute;
+    left:67px;
+    top:77px;
+}
+div#Penaut {
+    position:absolute;
+    left:67px;
+    top:102px;
+}
+div#Akat {
+    position:absolute;
+    left:67px;
+    top:127px;
+}
+div#Othervise {
+    position:absolute;
+    left:67px;
+    top:152px;
 }
 div#rafael {
     background-image: url('../img/rafael.png');
@@ -192,49 +226,71 @@ div#rafael {
     height:107px;
     position:absolute;
     right:0px;
-    top:500px;
+    top:360px;
 }
 div#icons {
-    background-image: url('../img/Ikons.png');
 
     width:630px;
     height:76px;
     position:absolute;
     right:0px;
-    top:500px;
+    top:650px;
 
 }
 
 div#icons a{
     background-image: url('../img/Ikons.png');
-    border:1px solid red;
+
     height:39px;
     width:38px;
     position:absolute;
-
-    top:17px;
+    top:0px;
     display:block;
 }
-
+div#icons a#facebook{
+    left:22px;
+    background-position: 590px 55px;
+}
 div#icons a#Beatport{
-    left:27px;
+    left:76px;
 }
-
 div#icons a#Soundcloud{
-    left:130px;
+    left:129px;
 }
-
-
+div#icons a#Mixcloud{
+    left:182px;
+}
+div#icons a#Twitter{
+    left:236px;
+}
+div#icons a#Myspace{
+    left:289px;
+}
+div#icons a#Youtube{
+    left:342px;
+}
+div#icons a#Gplus{
+    left:395px;
+}
+div#icons a#thumblr{
+    left:448px;
+}
+div#icons a#gmail{
+    left:501px;
+}
+div#icons a#skype{
+    left:554px;
+}
 div#top-menu a#facebook{
 
     width:85px;
     left:8px;
-    background-position: -7px -6px;
+    background-position: -10px -15px;
 }
 div#top-menu a#Beatport{
     width:85px;
     left:8px;
-    background-position: -7px -6px;
+    background-position: -6px -6px;
 }
 
 
